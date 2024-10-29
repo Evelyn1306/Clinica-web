@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Clínica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Interfaz Cliente -->
+    <h2>Interfaz del Cliente</h2>
+    <section id="ficha-clinica">
+        <h3>Ficha Clínica</h3>
+        <p>Exámenes y Resultados:</p>
+        <ul>
+            <li>Examen de Sangre - Fecha: 2023-06-15 - Resultado: Normal 
+                <a href="examenes/examen_sangre.pdf" download="Examen_Sangre.pdf" class="download-link">Descargar</a>
+            </li>
+            <li>Rayos X - Fecha: 2023-07-10 - Resultado: Sin Anomalías 
+                <a href="examenes/rayos_x.pdf" download="Rayos_X.pdf" class="download-link">Descargar</a>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="agendar-hora">
+        <h3>Agendar Hora</h3>
+        <button>Programar Nueva Cita</button>
+    </section>
+    
+    <section id="historial-consultas">
+        <h3>Historial de Consultas</h3>
+        <ul>
+            <li>Consulta con Dr. Pérez - Fecha: 2023-05-20</li>
+            <li>Consulta con Dr. González - Fecha: 2023-07-05</li>
+        </ul>
+    </section>
+</div>
+
+<div class="container">
+    <!-- Interfaz Profesional -->
+    <h2>Interfaz del Profesional</h2>
+    <section id="info-paciente">
+        <h3>Información del Paciente</h3>
+        <p>Nombre: Juan Pérez</p>
+        <p>Edad: 45</p>
+        <p>RUT: 12345678-9</p>
+    </section>
+    
+    <section id="ficha-historial">
+        <h3>Ficha Clínica e Historial Médico</h3>
+        <p>Diagnóstico: Hipertensión</p>
+        <p>Tratamiento Actual: Medicación diaria</p>
+    </section>
+    
+    <section id="agenda">
+        <h3>Agenda de Consultas</h3>
+        <p>Consultas Programadas para Hoy: 5</p>
+        <ul>
+            <li>10:00 AM - Consulta con Juan Pérez</li>
+            <li>11:30 AM - Consulta con María López</li>
+            <li>02:00 PM - Consulta con Carlos Ruiz</li>
+        </ul>
+    </section>
+    
+    <section id="ingresos">
+        <h3>Información de Ingresos</h3>
+        <p>Ganancia por Consulta: $50</p>
+        <p>Total Diario: $250</p>
+    </section>
+</div>
+
+</body>
+</html>
